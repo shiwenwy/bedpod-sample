@@ -34,3 +34,6 @@ demo-sdk-impl：扩展点的实现
  bedpod-sdk-impl是sdk的实现，DemoExtPointImpl使用@Extension注解，注解中value="demo"， demo即扩展点的别名，DemoController通过别名
  获取不同的扩展点实现。另外在resource中，在 META-INF/services目录中，添加了以扩展点接口的全路径为文件名的文件，并将实现的全路径写到文件
  中，这样当 bedpod-demo启动时，就能将扩展点的实现加载进来。
+ 
+ 启动bedpod-demo后，效果：
+ 
