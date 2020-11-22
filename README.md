@@ -37,3 +37,8 @@ demo-sdk-impl：扩展点的实现
  
  启动bedpod-demo后，效果：
  
+ ➜  ~ curl http://localhost:8080/demo\?name\=hahaha
+ 
+hahaha say hello in demo extPoint and hahaha doSomething in DemoAbility% 
+ 
+ 
