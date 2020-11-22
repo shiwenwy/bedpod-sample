@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.shiwenwy</groupId>
-    <artifactId>demo-sdk</artifactId>
+    <artifactId>demo-sdk-impl</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.shiwen</groupId>
-            <artifactId>wy-bedpod-common</artifactId>
+            <groupId>com.github.shiwenwy</groupId>
+            <artifactId>demo-sdk</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
